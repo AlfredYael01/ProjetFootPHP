@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#BodyConex  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(0,85,164,1) 0%, rgba(255,255,255,1) 50%, rgba(239,65,53,1) 100%);
+}
+#ConnexionSection {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 6px;
+}
+#ConnexionSection h1 {
+    text-align: center;
+}
+
+#ConnexionForm {
+    display: flex;
+    flex-direction: column;
+}
+#ConnexionForm input {
+    margin: 5px 0;
+    padding: 5px 5px;
+    outline: 0;
+    border: 1px solid#000;
+    border-radius: 6px;
+
+}
+#ConnexionForm  input[type='submit'] {
+    background-color: #17f;
+    border: 0;
+    color: #fff;
+    margin-top: 15px;
+    padding: 6px 0;
+
+}
+.Erreur {
+    color: red;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.message {
+    color: #fff;
+    font-size: 25px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	background-color: #F95253;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+
+.flex-container>div {
+	background-color: #F95253;
+	align-items: center;
+	width: 84%;
+	height: auto;
+	padding: 1%;
+	margin: 1px;
+}
+/* code afficher Joueurs */
+#affiche{
+    background: linear-gradient(90deg, rgba(0,85,164,1) 0%, rgba(255,255,255,1) 50%, rgba(239,65,53,1) 100%);
+}
+#TitleAfficheJ{
+    text-align: center;
+   background-color: #444;
+    color: white;
+}
+#AfficheTable {
+    border-collapse: collapse;
+    background: white;
+    margin: auto;
+    
+}
+
+#AfficheTable td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    /* modifie la hauteur du tableau*/
+    height: 25px;
+    width: 200px;
+}
+
+#AfficheTable td img {
+    width: 200px; 
+    padding:40px;
+}
+
+#divModifier #Ajouterboutton{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 50%;
+}
+#divModifier #Supprimerboutton{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+#divModifier #AnnulerBoutton{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+/*code supprimer joueur*/
+#AfficheTableSup {
+    border-collapse: collapse;
+    background: white;
+    margin: auto;
+    
+}
+#AfficheTableSup td{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    /* modifie la hauteur du tableau*/
+    height: 25px;
+}
+#AfficheTableSup td img {
+    width: 200px; 
+    padding:40px;
+}
+/*code formulaire ajouter joueur*/
+
+#BodyFormulaire{
+        background: linear-gradient(90deg, rgba(0,85,164,1) 0%, rgba(255,255,255,1) 50%, rgba(239,65,53,1) 100%);
+}
+#divFormulaire{
+    background: white;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    
+    margin: auto;
+    border: 5px solid yellow;
+    
+
+}
+#divTitreFormulaire{
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+#divNomPrenom{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right :10%;
+}
+#divNationalitePhoto{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right :10%;
+}
+#divNumeroLicenseDateNaissance{
+    margin-left: 10%;
+    font-size: 20px;
+}
+#divTaillePoids{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right :10%;
+}
+
+#divVilleCodePostal{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right :10%;
+}
+#divPoste{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right :10%;
+}
+#divCommentaire{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right :10%;
+
+}
+
+#BtnAjouterJoueur{
+    margin-left: 40%;
+    font-size: 120%;
+    background: rgb(26, 213, 26);
+}
+#BtnAnnulerJoueur{
+    margin-left: 10%;
+    font-size: 120%;
+    background: rgb(239, 95, 95);
+}
+#FormAjout{
+    width: 100%;
+}
+
+
+/*code formulaire ajouter un match*/
+#divDateHeureM{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right :10%;
+}
+
+#divEquipeAdvDomExt{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right :10%;
+}
+#divResultLieux{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right :10%;
+}
+#BtnAnnulerMatch{
+    margin-left: 10%;
+    font-size: 120%;
+    background: rgb(239, 95, 95);
+}
+#BtnAjouterMatch{
+    margin-left: 40%;
+    font-size: 120%;
+    background: rgb(26, 213, 26);
+}
+
+
+ #Tablemodifier {
+    background-color: white;
+}
+#AfficheTable{
+    background-color: white;    
+}
+#divModifier{
+    font-size: 100%;
+}
+#divAjouterJPasIn{
+    font-size: 100%;
+    margin-left: 90%;
+}
+h2{
+    text-align: center;
+    background-color: #444;
+    color: white;
+}

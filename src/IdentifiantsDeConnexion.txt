@@ -1,0 +1,7 @@
+Identifiant de connexion
+lien du site web : https://footballmanage.000webhostapp.com/
+Identifiant : Didier
+Mdp : Deschamps
+-----------------Note importante --------------------
+Pour modifier un joueur ou un match il faut allez sur la liste des joueus ou des match et cliquer sur les liens dans prénom ou la date du match 
+Note : Pour ajouter un joueur il faut d'abord créer un match puis allez le modifier donc appuyer sur date du match et vous pourrez les ajouter en bas avec le selecteur
